@@ -1,5 +1,5 @@
 # autheme
-wordpress theme
+Not meant to be pretty or anything, just a simple Wordpress theme that works.
 
-Not meant to be pretty or anything, just a simple Wordpress theme.
+![alt text](Screenshot-2018-1-13 About – Atheme.png "Screenshot of site")
 
