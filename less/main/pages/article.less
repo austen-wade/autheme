@@ -1,0 +1,49 @@
+.article {
+	.main-content {
+		color: #111;
+		font-family: 'Source Sans Pro', sans-serif !important;
+		font-size: 1.2em;
+		h2 {
+			color: @color-4;
+			font-family: 'Lato', sans-serif;
+			@media screen and (max-width: 780px) {
+				font-size: 0.95em;
+			}
+		}
+		p {
+			@media screen and (max-width: 780px) {
+				font-size: 0.85em;
+			}
+		}
+		img {
+			background-color: #111;
+			max-width: 100% !important;
+			height: auto;
+		}
+		.left {
+			float: left;
+			margin: 0 0 0 10%;
+			@media screen and (min-width: 780px) {
+				width: 55%;
+			}
+			@media screen and (max-width: 780px) {
+				margin: 0 10%;
+			}
+		}
+
+		.right {
+			height: 500px;
+			margin: 0 0 0 70%;
+			@media screen and (min-width: 780px) {
+				// width: 55%;
+			}
+			@media screen and (max-width: 780px) {
+				display: none;
+			}
+		}
+
+		.clear {
+			clear: both;
+		}
+	}
+}

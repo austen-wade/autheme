@@ -1,0 +1,44 @@
+@import "../components/globals";
+@footer-main-color: @color-1;
+
+.footer {
+	// margin-top: 50px;
+	nav {
+		.footer-navigation {
+			background-color: @footer-main-color;
+			color: white;
+			text-align: center;
+			min-height: 14.75vh;
+			padding: 5px;
+			height: 148.5px;
+			.menu-social-media-links-container {
+				ul {
+					list-style: none;
+					padding: 0;
+					li {
+						display: inline-block;
+						&.twitter-link {
+							color: #0084b4;
+						}
+
+						&.facebook-link {
+							color: #3b5998;
+						}
+
+						&.instagram-link {
+							color: #8a3ab9;
+						}
+						a {
+							text-decoration: none;
+							color: inherit;
+							&:hover {
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+
